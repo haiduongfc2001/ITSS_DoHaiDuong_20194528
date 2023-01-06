@@ -9,6 +9,9 @@ app.use(bodyParser.json());
 // Load mongoose
 const mongoose = require("mongoose");
 
+require("./Book")
+const Book = mongoose.model("Book");
+
 // Connect
 mongoose.set("strictQuery", false);
 mongoose.connect("mongodb+srv://haiduongfc2001:Haiduong26122001@cluster0.p383bze.mongodb.net/?retryWrites=true&w=majority", () => {
@@ -21,8 +24,33 @@ app.get("/", (req, res) => {
 
 // Create functions
 app.post("/book", (req, res) => {
-    console.log(req.body);
-    res.send("00:D")
+    var newBook = {
+        title: req.body.title,
+        author: req.body.author,
+        numberPages: req.body.numberPages,
+        publisher: req.body.publisher
+    }
+
+    // Create a new book
+    var book = new Book(newBook)
+
+    book.save().then(() => {
+        console.log("New book created!")
+    }).catch((err) => {
+        if (err) {
+            throw err;
+        }
+    })
+
+    res.send("A new book created with success!")
+})
+
+app.get("/books", (req, res) => {
+
+    Book.find().then((books) => {
+        console.log(books)
+
+    })
 })
 
 app.listen(4545, () => {
