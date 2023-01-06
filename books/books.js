@@ -48,8 +48,26 @@ app.post("/book", (req, res) => {
 app.get("/books", (req, res) => {
 
     Book.find().then((books) => {
-        console.log(books)
+        res.json(books)
+    }).catch((err) => {
+        if (err) {
+            throw err;
+        }
+    })
+})
 
+app.get("/book/:id", (req, res) => {
+    Book.findById(req.params.id).then((book) => {
+        if (book) {
+            // Book data
+            res.json(book)
+        } else {
+            res.sendStatus(404);
+        }
+    }).catch((err) => {
+        if (err) {
+            throw err;
+        }
     })
 })
 
