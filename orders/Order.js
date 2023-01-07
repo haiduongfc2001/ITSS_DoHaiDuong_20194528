@@ -1,20 +1,20 @@
 const mongoose = require('mongoose');
 
-mongoose.model('Order', {
+mongoose.model("Order", {
     CustomerID: {
-        type: mongoose.SchemaType.ObjectId,
-        require: true
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
     },
     BookID: {
-        type: mongoose.SchemaType.ObjectId,
-        require: true
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
     },
     initialDate: {
         type: Date,
-        require: true
+        required: true
     },
     deliveryDate: {
         type: Date,
-        require: true
+        required: true
     }
 })
