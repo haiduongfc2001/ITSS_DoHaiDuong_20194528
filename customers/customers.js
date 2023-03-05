@@ -83,5 +83,5 @@ app.delete('/customer/:id', (req, res) => {
 
 
 app.listen(5555, () => {
-    console.log('Up to running! -- This is our Books service');
+    console.log('Up to running! -- This is our Customers service');
 });
