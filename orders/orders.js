@@ -104,14 +104,6 @@ app.get('/order/:id', (req, res) => {
     });
 });
 
-// axios.get('http://localhost:4545/books').then((response) => {
-//     console.log(response.data);
-// });
-
-// axios.get('http://localhost:5555/customers').then((response) => {
-//     console.log(response.data);
-// });
-
 
 app.listen(7777, () => {
     console.log('Up to running! -- This is our Orders service');

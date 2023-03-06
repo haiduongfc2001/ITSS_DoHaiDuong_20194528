@@ -89,17 +89,6 @@ app.get('/customer/:id', (req, res) => {
     });
 })
 
-// app.delete('/customer/:id', (req, res) => {
-//     Customer.findByIdAndRemove(req.params.id).then(() => {
-//         res.send('Customer deleted with success!');
-//         logger.info('Customer deleted with success!', );
-//     }).catch((err) => {
-//         if (err) {
-//             throw err;
-//         }
-//     });
-// });
-
 app.delete('/customer/:id', (req, res) => {
     Customer.findById(req.params.id).then((customer) => {
         if (customer) {

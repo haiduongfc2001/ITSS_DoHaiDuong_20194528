@@ -16,3 +16,7 @@
 {"level":"info","message":"Invalid Customer ID!","timestamp":"2023-03-05T20:05:24.331Z"}
 {"level":"info","message":"Received request for customers service","timestamp":"2023-03-05T20:06:39.088Z"}
 {"level":"info","message":"Invalid Customer ID!","timestamp":"2023-03-05T20:06:41.011Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-06T04:36:13.087Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-06T04:36:13.129Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-06T07:05:19.189Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-06T07:05:19.208Z"}

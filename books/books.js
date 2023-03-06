@@ -2,7 +2,6 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-// const Syslog = require('winston-syslog').Syslog;
 
 app.use(bodyParser.json());
 
@@ -62,7 +61,6 @@ app.post('/book', (req, res) => {
 
     book.save().then(() => {
         console.log('New book created!');
-        // logger.info('New book created!');
         logger.info('New book created!', { title: book.title, author: book.author, numberPages: book.numberPages, publisher: book.publisher });
     }).catch(err => {
         if (err) {

@@ -19,3 +19,11 @@
 {"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T20:06:41.028Z"}
 {"level":"error","message":"Can not find book!","timestamp":"2023-03-05T20:18:51.969Z"}
 {"level":"error","message":"Can not find book!","timestamp":"2023-03-05T20:19:51.205Z"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-06T04:36:07.794Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-06T04:36:07.831Z"}
+{"level":"info","message":"A new book created with success!","timestamp":"2023-03-06T04:37:03.784Z"}
+{"author":"Duong","level":"info","message":"New book created!","numberPages":1500,"publisher":"haiduong2k1","timestamp":"2023-03-06T04:37:03.825Z","title":"HTML-CSS from Scratch"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-06T04:48:19.001Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-06T04:48:19.056Z"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-06T04:53:38.231Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-06T04:53:38.261Z"}

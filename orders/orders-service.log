@@ -15,3 +15,7 @@
 {"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T20:19:41.633Z"}
 {"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-05T20:21:24.333Z"}
 {"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T20:21:24.349Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-06T04:36:03.771Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-06T04:36:03.817Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-06T07:21:49.026Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-06T07:21:49.043Z"}
