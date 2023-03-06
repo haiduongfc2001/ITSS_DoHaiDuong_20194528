@@ -1,0 +1,21 @@
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-05T19:05:08.554Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-05T19:05:08.571Z"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-05T19:23:52.962Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-05T19:23:52.983Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T19:23:59.831Z"}
+{"author":"Nguyễn Tùng","level":"info","message":"Book deleted","numberPages":1000,"publisher":"tungnguyensnk","timestamp":"2023-03-05T19:24:18.158Z","title":"JS from Scratch"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-05T19:29:00.701Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-05T19:29:00.720Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T19:29:08.087Z"}
+{"book":{"author":"HaiDuong","numberPages":600,"publisher":"haiduongfc2001","title":"ExpressJS from Scratch"},"level":"info","message":"Book deleted with success!","timestamp":"2023-03-05T19:29:14.418Z"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-05T19:29:57.802Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-05T19:29:57.818Z"}
+{"level":"info","message":"Books service started listening on port 4545","timestamp":"2023-03-05T19:31:00.500Z"}
+{"level":"info","message":"Database connected - Books Service","timestamp":"2023-03-05T19:31:00.515Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T19:47:33.334Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T19:48:33.026Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T19:52:00.702Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T20:05:24.387Z"}
+{"level":"info","message":"Sent response for /books","timestamp":"2023-03-05T20:06:41.028Z"}
+{"level":"error","message":"Can not find book!","timestamp":"2023-03-05T20:18:51.969Z"}
+{"level":"error","message":"Can not find book!","timestamp":"2023-03-05T20:19:51.205Z"}

@@ -5,7 +5,25 @@ const mongoose = require('mongoose');
 const axios = require('axios');
 const { response } = require('express');
 
+const morgan = require('morgan');
+app.use(morgan('combined'));
+
+
 app.use(bodyParser.json());
+
+// Add logging middleware
+const winston = require('winston');
+const { format } = winston;
+const logger = winston.createLogger({
+    format: format.combine(
+        format.timestamp(),
+        format.json(),
+    ),
+    transports: [
+        new winston.transports.File({ filename: 'error.log', level: 'error' }),
+        new winston.transports.File({ filename: 'orders-service.log' })
+    ]
+});
 
 // Connect
 async function connect() {
@@ -15,8 +33,10 @@ async function connect() {
             useUnifiedTopology: true,
         });
         console.log('Database connected - Orders Service');
+        logger.info('Database connected - Orders Service');
     } catch (error) {
         console.log('Data not connected!!!');
+        logger.error('Data not connected!!!');
     }
 }
 
@@ -40,7 +60,11 @@ app.post('/order', (req, res) => {
     var order = new Order(newOrder)
 
     order.save().then(() => {
-        res.send('Order created with success!')
+        res.send('Order created with success!');
+        logger.info('Order created!', {
+            CustomerID: order.CustomerID, BookID: order.BookID,
+            initialDate: order.address, deliveryDate: order.deliveryDate
+        });
     }).catch(err => {
         if (err) {
             throw err;
@@ -71,6 +95,7 @@ app.get('/order/:id', (req, res) => {
             });
         } else {
             res.send('Invalid Order');
+            logger.error('Invalid Order');
         }
     }).catch((err) => {
         if (err) {
@@ -79,6 +104,16 @@ app.get('/order/:id', (req, res) => {
     });
 });
 
+// axios.get('http://localhost:4545/books').then((response) => {
+//     console.log(response.data);
+// });
+
+// axios.get('http://localhost:5555/customers').then((response) => {
+//     console.log(response.data);
+// });
+
+
 app.listen(7777, () => {
     console.log('Up to running! -- This is our Orders service');
+    logger.info('Orders service started listening on port 7777');
 });

@@ -1,0 +1,18 @@
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-05T19:11:16.045Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-05T19:11:51.319Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-05T19:11:51.335Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-05T19:12:24.996Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-05T19:12:25.013Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-05T19:13:02.327Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-05T19:13:02.345Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-05T19:19:49.883Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-05T19:19:49.899Z"}
+{"customer":{"address":"Ninh Bình","age":23,"name":"Phạm Thành Chung"},"level":"info","message":"Customer deleted with success!","timestamp":"2023-03-05T19:20:40.383Z"}
+{"level":"info","message":"Customers service started listening on port 5555","timestamp":"2023-03-05T19:32:02.707Z"}
+{"level":"info","message":"Database connected - Customers Service","timestamp":"2023-03-05T19:32:02.726Z"}
+{"level":"info","message":"Received request for customers service","timestamp":"2023-03-05T19:47:33.335Z"}
+{"level":"info","message":"Received request for customers service","timestamp":"2023-03-05T19:48:33.024Z"}
+{"level":"info","message":"Received request for customers service","timestamp":"2023-03-05T19:52:02.420Z"}
+{"level":"info","message":"Invalid Customer ID!","timestamp":"2023-03-05T20:05:24.331Z"}
+{"level":"info","message":"Received request for customers service","timestamp":"2023-03-05T20:06:39.088Z"}
+{"level":"info","message":"Invalid Customer ID!","timestamp":"2023-03-05T20:06:41.011Z"}

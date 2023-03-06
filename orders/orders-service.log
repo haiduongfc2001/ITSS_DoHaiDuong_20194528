@@ -1,0 +1,17 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"Database connected - Orders Service","timestamp":"2023-03-05T19:47:33.212Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T19:48:33.024Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T19:48:52.631Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T19:51:54.523Z"}
+{"BookID":"6404e02875e31cb317025fa1","CustomerID":"64044ab37a40632ed6c98936","deliveryDate":"2023-02-10T00:00:00.000Z","level":"info","message":"Order created!","timestamp":"2023-03-05T19:53:33.599Z"}
+{"BookID":"6404e02875e31cb317025fa1","CustomerID":"64044ab37a40632ed6c98937","deliveryDate":"2023-02-10T00:00:00.000Z","level":"info","message":"Order created!","timestamp":"2023-03-05T19:55:06.023Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T19:57:08.197Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-05T19:57:35.401Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T19:57:35.416Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-05T20:06:37.051Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T20:06:37.065Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-05T20:06:46.398Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T20:06:46.419Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-05T20:19:41.619Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T20:19:41.633Z"}
+{"level":"info","message":"Orders service started listening on port 7777","timestamp":"2023-03-05T20:21:24.333Z"}
+{"level":"info","message":"Database connected - Orders Service","timestamp":"2023-03-05T20:21:24.349Z"}
